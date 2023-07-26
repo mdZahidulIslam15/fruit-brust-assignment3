@@ -360,7 +360,561 @@
     <!-- header section end -->
 
     <!-- main section start -->
-    <main></main>
+    <main>
+      <!-- deal section start -->
+      <section
+        class="lg:max-w-screen-xl md:max-w-screen-sm max-w-xs mx-auto lg:py-5 md:px-6 lg:mb-9 md:mb-6 mb-4"
+      >
+        <div class="flex lg:flex-row flex-col gap-8 md:mt-6 mt-4">
+          <div class="flex-1 lg:text-start text-center">
+            <h1 class="md:text-5xl text-3xl font-extrabold text-[#121212]">
+              Deal of the day
+            </h1>
+            <p class="text-base text-[#717171] font-semibold mt-6">
+              Contrary to popular belief, is not simply random text. It has
+              roots in a piece of classical Latin literature from 45 BC, making
+              it over 2000 years old.
+            </p>
+          </div>
+
+          <div
+            class="flex lg:justify-end md:justify-center justify-center items-center flex-1"
+          >
+            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+              <div class="flex flex-col text-[#717171] text-base font-semibold">
+                <span
+                  class="countdown md:text-5xl text-3xl text-[#121212] font-extrabold"
+                >
+                  <span style="--value: 29"></span>
+                </span>
+                Days
+              </div>
+              <div class="mb-10">
+                <i class="fa-solid fa-ellipsis-vertical md:mt-4 mt-2"></i>
+              </div>
+
+              <div class="flex flex-col text-[#717171] text-base font-semibold">
+                <span
+                  class="countdown md:text-5xl text-3xl text-[#121212] font-extrabold"
+                >
+                  <span style="--value: 15"></span>
+                </span>
+                Hours
+              </div>
+
+              <div class="mb-10">
+                <i class="fa-solid fa-ellipsis-vertical md:mt-4 mt-2"></i>
+              </div>
+
+              <div class="flex flex-col text-[#717171] text-base font-semibold">
+                <span
+                  class="countdown md:text-5xl text-3xl text-[#121212] font-extrabold"
+                >
+                  <span style="--value: 25"></span>
+                </span>
+                Mins
+              </div>
+
+              <div class="mb-10">
+                <i class="fa-solid fa-ellipsis-vertical md:mt-4 mt-2"></i>
+              </div>
+
+              <div class="flex flex-col text-[#717171] text-base font-semibold">
+                <span
+                  class="countdown md:text-5xl text-3xl text-[#121212] font-extrabold"
+                >
+                  <span style="--value: 08"></span>
+                </span>
+                Seconds
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- deal section ends -->
+
+      <!-- products section start -->
+      <section
+        class="lg:max-w-screen-xl md:max-w-screen-sm max-w-xs mx-auto lg:py-6 md:py-4 py-2 md:px-6 px-2 lg:mb-9 md:mb-6 mb-4"
+      >
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
+          <!-- first products starts -->
+          <div class="pd1 py-12 px-18">
+            <div class="flex justify-center">
+              <img src="./images/fruit6.png" alt="" />
+            </div>
+            <div class="text-center">
+              <h1 class="text-2xl text-[#121212] font-bold py-12">
+                15.30$ - 17.55$
+              </h1>
+              <p class="text-base font-semibold text-[#717171] pb-6">Apples</p>
+              <!-- rating -->
+              <div class="rating pb-8">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <!-- rating ends -->
+
+              <!-- button modals start -->
+              <!-- Open the modal using ID.showModal() method -->
+              <div class="text-center">
+                <button
+                  class="btn text-[#F85559] font-bold capitalize"
+                  onclick="my_modal_1.showModal()"
+                >
+                  Details
+                </button>
+                <dialog id="my_modal_1" class="modal">
+                  <form method="dialog" class="modal-box">
+                    <div class="flex justify-center">
+                      <img src="./images/fruit3.png" alt="" />
+                    </div>
+                    <h3 class="font-bold text-lg text-center">Apple</h3>
+                    <p class="py-4 text-center">
+                      Crisp and succulent, apples are a classic favorite,
+                      brimming with dietary fiber and an array of vitamins,
+                      providing a satisfying and natural sweetness that promotes
+                      heart health and aids in digestion, making them an ideal
+                      choice for a nutritious and delicious on-the-go snack or a
+                      delectable addition to various culinary delights.
+                    </p>
+
+                    <!-- rating start -->
+                    <div class="rating">
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                        checked
+                      />
+                    </div>
+                    <!-- rating ends -->
+
+                    <div class="modal-action flex justify-center gap-4">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button
+                        class="text-xl font-extrabold text-[#F85559] border-2 border-[#F85559] py-3 px-5 rounded-lg"
+                      >
+                        Close
+                      </button>
+                      <button
+                        class="text-xl font-extrabold text-[#FFF] bg-[#F85559] py-3 px-5 rounded-lg"
+                      >
+                        Buy Now
+                      </button>
+                    </div>
+                  </form>
+                </dialog>
+              </div>
+            </div>
+            <!-- button modals ends -->
+          </div>
+          <!-- first products ends -->
+
+          <!-- second products start -->
+          <div class="pd1 py-12 px-18">
+            <div class="flex justify-center">
+              <img src="./images/fruit7.png" alt="" />
+            </div>
+            <div class="text-center">
+              <h1 class="text-2xl text-[#121212] font-bold py-12">
+                15.99$ - 19.75$
+              </h1>
+              <p class="text-base font-semibold text-[#717171] pb-6">Orange</p>
+              <!-- rating -->
+              <div class="rating pb-8">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <!-- rating ends -->
+
+              <!-- button modals start -->
+              <!-- Open the modal using ID.showModal() method -->
+              <div class="text-center">
+                <button
+                  class="btn text-[#F85559] font-bold capitalize"
+                  onclick="my_modal_2.showModal()"
+                >
+                  Details
+                </button>
+                <dialog id="my_modal_2" class="modal">
+                  <form method="dialog" class="modal-box">
+                    <div class="flex justify-center">
+                      <img src="./images/fruit2.png" alt="" />
+                    </div>
+                    <h3 class="font-bold text-lg text-center">Orange</h3>
+                    <p class="py-4 text-center">
+                      Juicy and refreshing, oranges are bursting with vitamin C
+                      and essential nutrients, offering a tangy-sweet flavor
+                      that brightens up the palate and supports a strong immune
+                      system, making them a delightful and healthful addition to
+                      any snack or recipe.
+                    </p>
+
+                    <!-- rating start -->
+                    <div class="rating">
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                        checked
+                      />
+                    </div>
+                    <!-- rating ends -->
+
+                    <div class="modal-action flex justify-center gap-4">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button
+                        class="text-xl font-extrabold text-[#F85559] border-2 border-[#F85559] py-3 px-5 rounded-lg"
+                      >
+                        Close
+                      </button>
+                      <button
+                        class="text-xl font-extrabold text-[#FFF] bg-[#F85559] py-3 px-5 rounded-lg"
+                      >
+                        Buy Now
+                      </button>
+                    </div>
+                  </form>
+                </dialog>
+              </div>
+            </div>
+            <!-- button modals ends -->
+          </div>
+          <!-- second products ends -->
+
+          <!-- third product start -->
+          <div class="pd1 py-12 px-18">
+            <div class="flex justify-center">
+              <img src="./images/fruit8.png" alt="" />
+            </div>
+            <div class="text-center">
+              <h1 class="text-2xl text-[#121212] font-bold py-12">
+                20.80$ - 28.95$
+              </h1>
+              <p class="text-base font-semibold text-[#717171] pb-6">
+                Red Dragon
+              </p>
+              <!-- rating -->
+              <div class="rating pb-8">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <!-- rating ends -->
+
+              <!-- button modals start -->
+              <!-- Open the modal using ID.showModal() method -->
+              <div class="text-center">
+                <button
+                  class="btn text-[#F85559] font-bold capitalize"
+                  onclick="my_modal_3.showModal()"
+                >
+                  Details
+                </button>
+                <dialog id="my_modal_3" class="modal">
+                  <form method="dialog" class="modal-box">
+                    <div class="flex justify-center">
+                      <img src="./images/fruit8.png" alt="" />
+                    </div>
+                    <h3 class="font-bold text-lg text-center">Red Dragon</h3>
+                    <p class="py-4 text-center">
+                      Vibrantly stunning, the red dragon fruit boasts a
+                      delightful taste with subtle sweetness, abundant in
+                      antioxidants and vitamin C, making it a healthy choice for
+                      enhancing immunity, promoting radiant skin, and adding a
+                      splash of vibrant color to any dish or fruit platter.
+                    </p>
+
+                    <!-- rating start -->
+                    <div class="rating">
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                        checked
+                      />
+                    </div>
+                    <!-- rating ends -->
+
+                    <div class="modal-action flex justify-center gap-4">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button
+                        class="text-xl font-extrabold text-[#F85559] border-2 border-[#F85559] py-3 px-5 rounded-lg"
+                      >
+                        Close
+                      </button>
+                      <button
+                        class="text-xl font-extrabold text-[#FFF] bg-[#F85559] py-3 px-5 rounded-lg"
+                      >
+                        Buy Now
+                      </button>
+                    </div>
+                  </form>
+                </dialog>
+              </div>
+            </div>
+            <!-- button modals ends -->
+          </div>
+          <!-- third product ends -->
+
+          <!-- four th product start -->
+          <div class="pd1 py-12 px-18">
+            <div class="flex justify-center">
+              <img src="./images/fruit9.png" alt="" />
+            </div>
+            <div class="text-center">
+              <h1 class="text-2xl text-[#121212] font-bold py-12">
+                10.50$ - 12.95$
+              </h1>
+              <p class="text-base font-semibold text-[#717171] pb-6">Banana</p>
+              <!-- rating -->
+              <div class="rating pb-8">
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                />
+              </div>
+              <!-- rating ends -->
+
+              <!-- button modals start -->
+              <!-- Open the modal using ID.showModal() method -->
+              <div class="text-center">
+                <button
+                  class="btn text-[#F85559] font-bold capitalize"
+                  onclick="my_modal_4.showModal()"
+                >
+                  Details
+                </button>
+                <dialog id="my_modal_4" class="modal">
+                  <form method="dialog" class="modal-box">
+                    <div class="flex justify-center">
+                      <img src="./images/fruit9.png" alt="" />
+                    </div>
+                    <h3 class="font-bold text-lg text-center">Banana</h3>
+                    <p class="py-4 text-center">
+                      Delicious and nutritious, these fresh, sweet bananas are a
+                      tropical delight, providing a wholesome and energizing
+                      snack packed with essential vitamins, potassium, and
+                      aiding digestion, perfect for adding flavor to recipes or
+                      blending into refreshing smoothies.
+                    </p>
+
+                    <!-- rating start -->
+                    <div class="rating">
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                        checked
+                      />
+                      <input
+                        type="radio"
+                        name="rating-2"
+                        class="mask mask-star-2 bg-orange-400"
+                      />
+                    </div>
+                    <!-- rating ends -->
+
+                    <div class="modal-action flex justify-center gap-4">
+                      <!-- if there is a button in form, it will close the modal -->
+                      <button
+                        class="text-xl font-extrabold text-[#F85559] border-2 border-[#F85559] py-3 px-5 rounded-lg"
+                      >
+                        Close
+                      </button>
+                      <button
+                        class="text-xl font-extrabold text-[#FFF] bg-[#F85559] py-3 px-5 rounded-lg"
+                      >
+                        Buy Now
+                      </button>
+                    </div>
+                  </form>
+                </dialog>
+              </div>
+            </div>
+            <!-- button modals ends -->
+          </div>
+          <!-- four th product ends -->
+        </div>
+        <div class="flex justify-center">
+          <button
+            class="btn bg-[#F85559] hover:bg-[#ee3639] text-[#FFF] capitalize mt-11"
+          >
+            Shop All
+          </button>
+        </div>
+      </section>
+      <!-- products section ends -->
+    </main>
     <!-- main section start -->
 
     <!-- footer section start -->
