@@ -173,13 +173,14 @@
 
       <!-- hero section start -->
       <div
-        class="lg:max-w-screen-xl md:max-w-screen-sm max-w-xs mx-auto lg:mt-4 mt-1 lg:py-5 md:px-6"
+        class="lg:max-w-screen-xl md:max-w-screen-sm max-w-xs mx-auto lg:mt-4 mt-1 lg:py-5 md:px-6 lg:mb-24 relative"
       >
         <div class="carousel w-full">
           <!-- slide1 all elements -->
+          <!-- min-h-[calc(100vh-230px)] -->
           <div id="slide1" class="carousel-item relative w-full">
             <div
-              class="hero min-h-[calc(100vh-230px)]"
+              class="hero lg:h-[500px] min-h-[calc(100vh-230px)]"
               style="background-image: url(./images/banner1.png)"
             >
               <!-- min-h-[calc(100vh-230px)] -->
@@ -356,8 +357,42 @@
             </div>
           </div>
           <!-- slide section ends here -->
+
+          <!-- hero fruits section -->
+          <!-- -bottom-20 transform translate-x-32 -->
+
+          <div
+            class="hero-fruit hidden lg:flex justify-between items-center w-[900px] h-[200px] bg-gray-200 text-center absolute -bottom-20 left-1/2 transform -translate-x-1/2 border-2 border-black p-7"
+          >
+            <div class="f1">
+              <img src="./images/fruit1.png" alt="" />
+              <p class="text-xl font-medium pt-3">Grape</p>
+            </div>
+
+            <div class="f2">
+              <img src="./images/fruit2.png" alt="" />
+              <p class="text-xl font-medium pt-3">Orange</p>
+            </div>
+
+            <div class="f3">
+              <img src="./images/fruit3.png" alt="" />
+              <p class="text-xl font-medium pt-3">Mango</p>
+            </div>
+
+            <div class="f4">
+              <img src="./images/fruit4.png" alt="" />
+              <p class="text-xl font-medium pt-3">Strawberry</p>
+            </div>
+
+            <div class="f5">
+              <img src="./images/fruit5.png" alt="" />
+              <p class="text-xl font-medium pt-3">Pomegranate</p>
+            </div>
+          </div>
+          <!-- hero-fruits section ends -->
         </div>
       </div>
+
       <!-- hero section end -->
     </header>
     <!-- header section end -->
